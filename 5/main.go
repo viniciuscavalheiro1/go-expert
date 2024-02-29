@@ -15,5 +15,14 @@ var (
 )
 
 func main() {
-	fmt.Printf("O tipo de E é %T \n", f)
+	var meuArray [3]int
+	meuArray[0] = 10
+	meuArray[1] = 20
+	meuArray[2] = 30
+
+	for i, v := range meuArray {
+		fmt.Printf("O valor do indice é %d, e o valor é %d\n", i, v)
+	}
+
+	fmt.Println(len(meuArray) - 1)
 }
