@@ -1,5 +1,9 @@
 package main
 
+import (
+	"fmt"
+)
+
 type ID int
 
 var (
@@ -11,10 +15,5 @@ var (
 )
 
 func main() {
-	nome := "vinicius" //string
-	println(nome)
-	println(b)
-	println(c)
-	println(d)
-	println(f)
+	fmt.Printf("O tipo de E é %T \n", f)
 }
