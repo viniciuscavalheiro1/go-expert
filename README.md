@@ -9,3 +9,5 @@
 ### 4 - Estrutura inicial formatação de impressão com fmt
 
 ### 5 - Percorrendo Arrays
+
+### 6 - Slices
